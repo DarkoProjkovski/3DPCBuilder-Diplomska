@@ -146,7 +146,7 @@ const Background = (props) => {
                 <MeshPortalMaterial ref={meshPortalMaterialRef2}>
                     <ambientLight intensity={2} color={"white"} />
                     <Text position={[0, 2, 0]}>This</Text>
-                    <PhanteksEclipseP300Midtower rotation={[0, 0, 0]} position-y={0} doubleClickHandler={doubleClickHandler2} />
+                    {/* <PhanteksEclipseP300Midtower rotation={[0, 0, 0]} position-y={0} doubleClickHandler={doubleClickHandler2} /> */}
                     <mesh>
                         <sphereGeometry args={[10, 64, 64]} />
                         <meshBasicMaterial map={texture} side={THREE.BackSide} />
@@ -170,7 +170,7 @@ const Background = (props) => {
                 <Text position={[0, 2, 0]}>That</Text>
                 <MeshPortalMaterial ref={meshPortalMaterialRef3}>
                     <ambientLight intensity={2} color={"white"} />
-                    <CoolerMasterNR200MiniITX />
+                    {/* <CoolerMasterNR200MiniITX /> */}
                     <mesh>
                         <sphereGeometry args={[10, 64, 64]} />
                         <meshBasicMaterial map={texture} side={THREE.BackSide} />
