@@ -230,9 +230,9 @@ const RAMLogic = () => {
                 backgroundSize: "contain",
                 backgroundPosition: "center"
             }} className='width33'>
-                <div className='box-not-active'>
+                <div className='box-not-active not-comp'>
                     {/* <CorsairVengeanceCanvas /> */}
-                    <div>CorsairVengeance "NOT THIS"</div>
+                    <div className='not-comp-text'>NOT COMPATIBLE</div>
                 </div>
             </div>
 

@@ -141,9 +141,9 @@ const CoolingLogic = () => {
                     backgroundSize: "contain",
                     backgroundPosition: "center"
                 }}>
-                    <div id='92mmA' onClick={onBoxClick} className={(slim92mmbox) ? "box-active" : "box-not-active"}>
+                    <div id='92mmA' onClick={onBoxClick} className={`${(slim92mmbox) ? "box-active" : "box-not-active"} not-comp`}>
                         {/* <CorsairAFSLIM92mmCanvas /> */}
-                        <div>CorsairAFSLIM92mmCanvas</div>
+                        <div className='not-comp-text'>NOT COMPATIBLE</div>
                     </div>
                     <div className={(slim92mmbox) ? "visible" : "hidden"}>
                         <Button reset={slim92mmbox} objects={CorsairAFSLIMBIGs} size={FAN_SIZE.S} setObjects={setCorsairAFSLIMBIGs} />
@@ -155,9 +155,9 @@ const CoolingLogic = () => {
                     backgroundSize: "contain",
                     backgroundPosition: "center"
                 }}>
-                    <div id='92mmB' onClick={onBoxClick} className={(icu92mmbox) ? "box-active" : "box-not-active"}>
+                    <div id='92mmB' onClick={onBoxClick} className={`${(icu92mmbox) ? "box-active" : "box-not-active"} not-comp`}>
                         {/* <CorsairICUELINKQX92mmCanvas /> */}
-                        <div>CorsairICUELINKQX92mmCanvas</div>
+                        <div className='not-comp-text'>NOT COMPATIBLE</div>
                     </div>
                     <div className={(icu92mmbox) ? "visible" : "hidden"}>
                         <Button reset={icu92mmbox} objects={CorsairICUELINKQXBIGs} size={FAN_SIZE.S} setObjects={setCorsairICUELINKQXBIGs} />
@@ -169,9 +169,9 @@ const CoolingLogic = () => {
                     backgroundSize: "contain",
                     backgroundPosition: "center"
                 }}>
-                    <div id='92mmC' onClick={onBoxClick} className={(lite92mmbox) ? "box-active" : "box-not-active"}>
+                    <div id='92mmC' onClick={onBoxClick} className={ `${(lite92mmbox) ? "box-active" : "box-not-active"} not-comp`}>
                         {/* <CorsairAFELITE92mmCanvas /> */}
-                        <div>CorsairAFELITE92mmCanvas</div>
+                        <div className='not-comp-text'>NOT COMPATIBLE</div>
                     </div>
                     <div className={(lite92mmbox) ? "visible" : "hidden"}>
                         <Button reset={lite92mmbox} objects={CorsairAFELITEBIGs} size={FAN_SIZE.S} setObjects={setCorsairAFELITEBIGs} />
