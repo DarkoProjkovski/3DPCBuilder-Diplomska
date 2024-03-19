@@ -1,3 +1,4 @@
+*.glb filter=lfs diff=lfs merge=lfs -text
 /public/img/AsusEX-A320M-Gaming.png filter=lfs diff=lfs merge=lfs -text
 /public/img/NvidiaGeForceRTX3070.png filter=lfs diff=lfs merge=lfs -text
 /public/img/NvidiaGeForceRTX3080.png filter=lfs diff=lfs merge=lfs -text
